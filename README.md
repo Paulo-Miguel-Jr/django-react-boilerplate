@@ -24,10 +24,10 @@ Also, includes a Heroku `app.json` and a working Django `production.py` settings
 This is a good starting point for modern Python/JavaScript web projects.
 
 ## Project bootstrap [![CircleCI](https://circleci.com/gh/vintasoftware/django-react-boilerplate.svg?style=svg)](https://circleci.com/gh/vintasoftware/django-react-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/vintasoftware/django-react-boilerplate.svg)](https://greenkeeper.io/)
-- [ ] Make sure you have Python 3.8 installed
-- [ ] Install Django with `pip install django`, to have the `django-admin` command available.
-- [ ] Open the command line and go to the directory you want to start your project in.
-- [ ] Start your project using:
+- [x] Make sure you have Python 3.8 installed
+- [x] Install Django with `pip install django`, to have the `django-admin` command available.
+- [x] Open the command line and go to the directory you want to start your project in.
+- [x] Start your project using:
     ```
     django-admin startproject theprojectname --extension py,yml,json --name Procfile,Dockerfile,README.md,.env.example,.gitignore,Makefile --template=https://github.com/vintasoftware/django-react-boilerplate/archive/boilerplate-release.zip
     ```
@@ -37,10 +37,10 @@ This is a good starting point for modern Python/JavaScript web projects.
     ```
 In the next steps, always remember to replace theprojectname with your project's name
 - [ ] Above: don't forget the `--extension` and `--name` params!
-- [ ] Change the first line of README to the name of the project
-- [ ] Add an email address to the `ADMINS` settings variable in `{{project_name}}/backend/{{project_name}}/settings/base.py`
-- [ ] Change the `SERVER_EMAIL` to the email address used to send e-mails in `{{project_name}}/backend/{{project_name}}/settings/production.py`
-- [ ] Rename the folder `circleci` to `.circleci` with the command `mv circleci .circleci`
+- [x] Change the first line of README to the name of the project
+- [x] Add an email address to the `ADMINS` settings variable in `{{project_name}}/backend/{{project_name}}/settings/base.py`
+- [x] Change the `SERVER_EMAIL` to the email address used to send e-mails in `{{project_name}}/backend/{{project_name}}/settings/production.py`
+- [x] Rename the folder `circleci` to `.circleci` with the command `mv circleci .circleci`
 
 After completing ALL of the above, remove this `Project bootstrap` section from the project README. Then follow `Running` below.
 
